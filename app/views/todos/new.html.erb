@@ -1,0 +1,14 @@
+<h1>New Todo</h1>
+<%= form_for @todo do |f| %>
+  <%= f.label :name%>
+  <%= f. text_field :name%>
+
+  <%= f.label :description %>
+  <%= f.text_field :description %>
+
+  <%= f.label :priority %>
+  <%= f.text_field :priority%>
+
+  <%= f.submit %>
+<% end %>
+
